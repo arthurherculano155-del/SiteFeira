@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.493);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    color: darkblue;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.logo img{
+    width: 10vw;
+    border-radius: 1000px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin: 0rem 3.5rem;
+}
+
+.text p{
+    color: grey;
+}
+
+.links{
+    display: flex;
+    color: white;
+    gap: 5rem;
+    font-size: 1.7rem;
+}
+
+.links a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.links a:hover{
+    color: rgb(0, 0, 70);
+    text-decoration: underline;
+}
+
+.links a:active{
+    transform: scale(.05);
+}
+
+.bot{
+    border: none;
+    padding: 1rem 3rem;
+    height: 40%;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 1000;
+    margin: 0rem 4rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.bot:hover{
+    background-color: rgb(0, 0, 83);
+    transform: scale(1.05);
+}
+
+.bot:active{
+    transform: scale(.95);
+    background-color: rgb(0, 4, 61);
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    gap: 17rem;
+    background: linear-gradient(rgb(0, 0, 80), rgb(0, 0, 102));
+    color: white;
+    align-items: center;
+    padding: 3rem 0rem;
+    margin-top: 100px;
+}
+
+.inicio h1{
+    font-size: 3.5rem;
+}
+
+.inicio h2{
+    font-size: 1.5rem;
+}
+
+.inicio span{
+    color: rgb(156, 229, 253);
+    font-weight: 1000;
+}
+
+.inicio p{
+    color: rgb(202, 202, 202);
+    font-size: 1.2rem;
+}
+
+.inicio .frei{
+    border-radius: 20px;
+    width: 35%;
+    box-shadow: 0 15px 40px rgba(0,0,0,.35);
+}
+
+.bnt{
+    display: flex;
+    gap: 3rem;
+    margin-top: 10px;
+}
+
+.bnt img{
+    width: 2vw;
+    padding: 0.5rem;
+    background-color: blue;
+    border-radius: 1000px;
+}
+
+.infs{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 30%;
+    cursor: default;
+}
+
+.bnts{
+    display: flex;
+    gap: 2rem;
+    margin-top: 10px;
+}
+
+.bnts button{
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: blue;
+    font-weight: 1000;
+    padding: 1rem 2rem;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.bnts .button:hover{
+    background-color: rgb(0, 0, 134);
+    transform: scale(1.05);
+}
+
+.bnts .button:active{
+    transform: scale(.95);
+    background-color: rgb(0, 8, 51);
+}
+
+
+.bnts .sobre{
+    background: none;
+    border: 2px solid blue;
+}
+
+.bnts .sobre:hover{
+    transform: scale(1.07);
+}
+
+
+.bnts .sobre:active{
+    transform: scale(.95);
+    border: rgb(0, 15, 102) solid 2px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 30px;
+}
+
+.card{
+    text-align: center;
+    align-items: center;
+    font-size: 1.7rem;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.274);
+    border-radius: 15px;
+    padding: 4rem 3rem;
+    color: blue;
+    width: 20%;
+    transition: .3s ease-out;
+    cursor: default;
+}
+
+.card:hover{
+    transform: scale(1.05) translateY(-8px);
+}
+
+hr{
+    color: rgba(128, 128, 128, 0.397);
+    margin-top: 20px;
+}
+
+.card p{
+    color: rgb(58, 58, 58);
+    font-size: 1.3rem;
+}
+
+.card img{
+    width: 20%;
+    border-radius: 1000px;
+    padding: 0.5rem;
+    background-color: lightblue;
+}
+
+.prog .info{
+    font-size: 2rem;
+    align-items: center;
+    overflow: hidden;
+    margin: 0rem 3rem;
+
+    h2, h3{
+        margin: 0rem 3rem;
+    }
+
+    h3{
+        color: blue;
+    }
+
+}
+
+.cardProg{
+    width: 10%;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 4rem;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.219);
+    transition: .3s ease-out;
+    cursor: default;
+
+    img{
+        border-radius: 1000px;
+        margin-top: 10px;
+        width: 50%;
+        padding: 0.5rem;
+        background-color: rgba(0, 38, 255, 0.849);
+    }
+
+   
+}
+
+.cardProg:hover{
+    transform: scale(1.05);
+}
+
+
+
+.ca{
+    display: flex;
+    gap: 2rem;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.prog img{
+    width: 43%;
+    margin-top: -20px;
+}
+
+.marketing{
+
+    width: 400px;
+    background: linear-gradient(rgb(0, 0, 119), rgb(23, 23, 243));
+    color: white;
+    border-radius: 15px;
+    padding: 2rem 4rem;
+    cursor: default;
+    margin-left: 30px;
+
+    h2{
+        color: lightblue;
+        font-weight: 1000;
+        font-size: 2.5rem;
+    }
+
+    img{
+        width: 30%;
+    }
+
+    .comunicado{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    p{
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+
+    .but{
+        background-color: darkblue;
+        border: none;
+        border-radius: 5px;
+        padding: 1rem 3rem;
+        font-weight: 600;
+        margin-top: 10px;
+        color: white;
+        font-size: 1.5rem;
+        transition: .3s ease;
+        cursor: pointer;
+    }
+
+    .but:hover{
+        background-color: rgb(0, 0, 134);
+        transform: scale(1.05);
+    }
+
+    .but:active{
+        transform: scale(.95);
+        background-color: rgb(0, 8, 51);
+    }
+}
+
+.rodape{
+    height: 250px;
+    border-top: 1px rgba(128, 128, 128, 0.5);
+    background: linear-gradient(darkblue, rgb(50, 50, 255));
+    align-items: start;
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
+    img{
+        width: 20%;
+    }
+    
+}
+
+.h1{
+    margin-top: -30px;
+    text-align: center;
+    color: rgb(202, 202, 202);
+}
+
+.rodape .info{
+    display: flex;
+    align-items: center;
+    margin-top: 50px    ;
+    text-align: justify;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: 0rem 3.5rem;
+}
+
+.rodape .text p{
+    color: rgb(255, 255, 255);
+}
+
+.contato{
+    h2{
+        color: grey;
+        margin-top: 30px;
+    }
+
+    .cont{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.4rem;
+    }
+}
+
+.redes{
+    width: 25%;
+    margin-top: 27px;
+    padding: 0rem 4rem;
+
+    a{
+        width: 100%;
+        text-decoration: none;
+    }
+    
+    .rd{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 10px;
+    }
+
+    h2{
+        color: grey;
+        position: relative;
+    }
+
+    .rede{
+        border: 2px solid blue;
+        align-items: center;
+        display: flex;
+        background-color: rgba(127, 255, 212, 0.486);
+        justify-content: center;
+        border-radius: 1000px;
+        width: 20%;
+        padding: 0.5rem;
+    }
+
+    .rede img{
+        width: 100%;
+    }
+}
