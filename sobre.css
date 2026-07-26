@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+    overflow-x: hidden;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.493);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    color: darkblue;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.logo img{
+    width: 10vw;
+    border-radius: 1000px;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin: 0rem 3.5rem;
+}
+
+.text1 p{
+    color: grey;
+}
+
+.bot{
+    border: none;
+    padding: 1rem 3rem;
+    height: 40%;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 1000;
+    margin: 0rem 4rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.bot:hover{
+    background-color: rgb(0, 0, 83);
+    transform: scale(1.05);
+}
+
+.bot:active{
+    transform: scale(.95);
+    background-color: rgb(0, 4, 61);
+}
+
+.container{
+    color: white;
+    background: linear-gradient(darkblue, rgb(0, 22, 63));
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    cursor: default;
+    align-items: center;
+    margin-top: 95px;
+
+    img{
+        width: 50%;
+        border-radius: 15px;
+        height: 400px;
+    }
+}
+
+.text{
+    width: 50%;
+
+    h3{
+        color: rgb(219, 255, 243);
+        font-size: 1.3rem;
+        font-weight: 1000;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    span{
+        color: aquamarine;
+        font-weight: 1000;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+}
+
+.encont{
+    h1{
+        font-size: 3rem;
+        text-align: center;
+        color: rgb(0, 0, 65);
+        text-decoration: underline rgb(118, 118, 255) 2px;
+    }
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem 0rem;
+}
+
+.card{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 4rem 3rem;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    border-bottom: 3px solid blue;
+    box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.466);
+    transition: .3s ease-out;
+    cursor: default;
+
+    img{
+        width: 40%;
+        border-radius: 1000px;
+        padding: 0.5rem;
+        background-color: blue;
+    }
+
+    h2{
+        color: blue;
+        font-weight: 1000;
+    }
+
+    p{
+        color: rgb(71, 71, 71);
+    }
+}
+
+#card{
+    border-bottom: 3px solid rgb(0, 174, 255);
+
+    h2{
+        color: rgb(0, 174, 255);
+    }
+
+    img{
+        background-color: rgb(0, 174, 255);
+    }
+}
+
+.card:hover{
+    transform: translateY(-8px) 
+    scale(1.05);
+}
+
+.info{
+    width: 100%;
+    background: linear-gradient(rgb(69, 134, 255), rgb(0, 50, 126));
+    padding: 2rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.infss{
+    margin: 6rem 7rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 1.8rem;
+    gap: 2rem;
+
+    img{
+        width: 50%;
+        border-radius: 1000px;
+        border: 5px solid rgb(156, 207, 255);
+        background-color: blue;
+    }
+}
+
+.cardProg{
+    border-right: 2px solid rgba(255, 255, 255, 0.39);
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0rem;
+}
+
+.lista{
+    text-align: justify;
+    font-size: 1.6rem;
+    align-items: center;
+    padding: 0rem 3rem;
+    color: white;
+}
+
+.h1{
+    font-size: 3rem;
+    margin: 3rem 0rem;
+    text-align: center;
+    color: rgb(0, 0, 65);
+    text-decoration: underline rgb(118, 118, 255) 2px;
+}
+
+.edic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    animation: slides 16s infinite;
+
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+.img{
+    width: 50%;
+}
+
+.rodape{
+    height: 250px;
+    border-top: 1px rgba(128, 128, 128, 0.5);
+    background: linear-gradient(darkblue, rgb(50, 50, 255));
+    align-items: start;
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
+    img{
+        width: 20%;
+    }
+    
+}
+
+.h2{
+    margin-top: -30px;
+    text-align: center;
+    color: rgb(202, 202, 202);
+}
+
+.rodape .info1{
+    display: flex;
+    align-items: center;
+    margin-top: 50px    ;
+    text-align: justify;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: 0rem 3.5rem;
+}
+
+.rodape .text p{
+    color: rgb(255, 255, 255);
+}
+
+.contato{
+    h2{
+        color: grey;
+        margin-top: 30px;
+    }
+
+    .cont{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.4rem;
+    }
+}
+
+.redes{
+    width: 25%;
+    margin-top: 27px;
+    padding: 0rem 4rem;
+
+    a{
+        width: 100%;
+        text-decoration: none;
+    }
+    
+    .rd{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 10px;
+    }
+
+    h2{
+        color: grey;
+        position: relative;
+    }
+
+    .rede{
+        border: 2px solid blue;
+        align-items: center;
+        display: flex;
+        background-color: rgba(127, 255, 212, 0.486);
+        justify-content: center;
+        border-radius: 1000px;
+        width: 50%;
+        padding: 0.5rem;
+    }
+
+    .rede img{
+        width: 100%;
+    }
+}
+
+@keyframes slides{
+    0%, 100%{
+        transform: translateX(0%);
+    }
+
+    50%{
+        transform: translateX(-10%);
+    }
+}
+
+@media(max-width: 480px){
+    .container1{
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        position: relative;
+
+        button{
+            padding: 1rem 3rem;
+            margin: 3rem 0rem;
+            align-items: center;
+        }
+
+        a{
+            align-items: center;
+        }
+        img{
+            width: 100px;
+        }
+    }
+
+    .logo{
+        text-align: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .text{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .container{
+        margin-top: 0px;
+    }
+
+    .container img{
+        width: 90vw;
+        margin: 4rem 0rem;
+        height: 200px;
+    }
+
+    span{
+        text-align: center;
+    }
+
+    .container{
+        flex-direction: column;
+        font-size: 1.4rem;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 90vw;
+        margin: auto;
+    }
+
+    .info{
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+
+    .cardProg{
+        width: 90vw;
+        border-right: none;
+        text-align: center;
+        padding: 0;
+        margin: 4rem 0rem;
+    }
+
+    .edic{
+        animation: none;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        img{
+            width: 50px;
+        }
+
+        #oi{
+            width: 115%;
+        }
+    }
+
+     .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5rem;
+        height: 800px;
+        padding: 4rem 2rem;
+        text-align: center;
+        border-top: none;
+        position: relative;
+    }
+
+    .h2{
+        position: absolute;
+        z-index: 1000;
+        top: 5995px;
+    }
+    
+    .rodape .info1{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        gap: 1rem;
+    }
+
+    .rodape img{
+        width: 200px;
+    }
+
+    .rodape .text1{
+        margin: 0;
+    }
+
+    .rodape .text1 h1{
+        font-size: 2.2rem;
+    }
+
+    .rodape .text1 p{
+        font-size: 1.4rem;
+    }
+
+    .contato{
+        width: 90%;
+    }
+
+    .contato h2{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: lightgray;
+    }
+
+    .contato .cont{
+        justify-content: center;
+        font-size: 2rem;
+    }
+
+    .redes{
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .redes h2{
+        color: lightgray;
+        margin-bottom: 1.5rem;
+    }
+
+    .redes .rd{
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .redes .rede{
+        width: 40px;
+        height: 40px;
+    }
+
+    .contato .cont img{
+        display: none;
+    }
+
+    .redes .rede img{
+        width: 100%;
+    }
+}
