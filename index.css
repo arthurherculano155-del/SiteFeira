@@ -443,3 +443,212 @@ hr{
         width: 100%;
     }
 }
+
+@media (max-width: 480px){
+
+    html{
+        font-size: 8px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding: 1.5rem 0;
+        position: relative;
+        gap: 2rem;
+    }
+
+    .logo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo img{
+        width: 90px;
+    }
+
+    .text{
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .links{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        font-size: 1.6rem;
+    }
+
+    .bot{
+        margin: 0;
+        width: 100%;
+        height: auto;
+        padding: 1.2rem;
+    }
+
+    .inicio{
+        flex-direction: column;
+        gap: 3rem;
+        text-align: center;
+        margin-top: 0;
+        padding: 4rem 2rem;
+    }
+
+    .inicio .frei{
+        width: 100%;
+    }
+
+    .bnts{
+        flex-direction: column;
+    }
+
+    .bnts button{
+        width: 100%;
+    }
+
+    .bnt{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .infs{
+        width: 50%;
+        font-size: 2rem;
+        justify-content: space-between;
+    }
+
+    .bnt img{
+        width: 40px;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        width: 90vw;
+        margin: 3rem auto;
+    }
+
+    .card{
+        width: 85%;
+    }
+
+    .prog .info{
+        margin: 0;
+        text-align: center;
+    }
+
+    .ca{
+        flex-direction: column;
+        gap: 2rem;
+        width: 90vw;
+        font-size: 3rem;
+        margin: auto;
+    }
+
+    .prog img{
+        width: 20%;
+        margin-top: 0;
+    }
+
+    .cardProg{
+        width: 75%;
+    }
+
+    .marketing{
+        width: 85%;
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5rem;
+        height: auto;
+        padding: 4rem 2rem;
+        text-align: center;
+        border-top: none;
+    }
+    
+    .rodape .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        gap: 1rem;
+    }
+
+    .rodape img{
+        width: 80px;
+    }
+
+    .rodape .text{
+        margin: 0;
+    }
+
+    .rodape .text h1{
+        font-size: 2.2rem;
+    }
+
+    .rodape .text p{
+        font-size: 1.4rem;
+    }
+
+    .contato{
+        width: 90%;
+    }
+
+    .contato h2{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: lightgray;
+    }
+
+    .contato .cont{
+        justify-content: center;
+        font-size: 2rem;
+    }
+
+    .redes{
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .redes h2{
+        color: lightgray;
+        margin-bottom: 1.5rem;
+    }
+
+    .redes .rd{
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .redes .rede{
+        width: 40px;
+        height: 40px;
+    }
+
+    .contato .cont img{
+        display: none;
+    }
+
+    .redes .rede img{
+        width: 100%;
+    }
+
+    .h1{
+        margin-top: 80px;
+    }
+}

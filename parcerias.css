@@ -216,6 +216,172 @@ hr{
     }
 }
 
+@media (max-width: 480px){
+
+    html{
+        font-size: 8px;
+    }
+
+    .container{
+        flex-direction: column;
+        margin: 2rem;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .container .text{
+        width: 100%;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .container .text img{
+        width: 90px;
+    }
+
+    .container a{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .info{
+        margin: 3rem 2rem;
+        text-align: center;
+    }
+
+    .info h1{
+        font-size: 3rem;
+    }
+
+    .info span{
+        font-size: 3rem;
+    }
+
+    .info p{
+        font-size: 1.8rem;
+    }
+
+    .info .info1{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .info .info1 img{
+        width: 120px;
+    }
+
+    .parc{
+    width: 100%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    animation: none;
+    }
+
+    .parc .img{
+        width: 42%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .parc .img img{
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .h2{
+        font-size: 3rem;
+        padding: 0 2rem;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5rem;
+        height: auto;
+        padding: 4rem 2rem;
+        text-align: center;
+        border-top: none;
+    }
+    
+    .rodape .info{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        gap: 1rem;
+    }
+
+    .rodape img{
+        width: 80px;
+    }
+
+    .rodape .text{
+        margin: 0;
+    }
+
+    .rodape .text h1{
+        font-size: 2.2rem;
+    }
+
+    .rodape .text p{
+        font-size: 1.4rem;
+    }
+
+    .contato{
+        width: 90%;
+    }
+
+    .contato h2{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: lightgray;
+    }
+
+    .contato .cont{
+        justify-content: center;
+        font-size: 2rem;
+    }
+
+    .redes{
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .redes h2{
+        color: lightgray;
+        margin-bottom: 1.5rem;
+    }
+
+    .redes .rd{
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .redes .rede{
+        width: 40px;
+        height: 40px;
+    }
+
+    .contato .cont img{
+        display: none;
+    }
+
+    .redes .rede img{
+        width: 100%;
+    }
+}
+
 @keyframes slide{
     0%{
         transform: translateX(0);
