@@ -588,7 +588,7 @@ hr{
     }
 
     .rodape img{
-        width: 80px;
+        width: 200px;
     }
 
     .rodape .text{
@@ -649,6 +649,6 @@ hr{
     }
 
     .h1{
-        margin-top: 80px;
+        display: none;
     }
 }
