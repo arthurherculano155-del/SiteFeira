@@ -43,7 +43,7 @@ body{
    
 
     a{
-        background-color: rgb(0, 24, 90);
+        background-color: rgb(0, 46, 172);
         color: white;
         font-size: 2rem;
         border-radius: 10px;
@@ -56,8 +56,8 @@ body{
 
     a:hover{
         transform: scale(1.06);
-        color: rgb(0, 62, 231);
-        background-color: white;
+        color: rgb(214, 214, 214);
+        background-color: rgb(0, 22, 82);
     }
 
     a:active{
@@ -136,7 +136,7 @@ hr{
     border-top: 1px rgba(128, 128, 128, 0.5);
     background: linear-gradient(darkblue, rgb(50, 50, 255));
     align-items: start;
-    margin-top: -40px;
+    margin-top: 40px;
     display: flex;
     border-top: 1px solid rgba(255, 255, 255, 0.473);
     color: white;
@@ -227,7 +227,7 @@ hr{
 
     .container{
         flex-direction: column;
-        margin: 2rem;
+        margin: auto 3rem;
         text-align: center;
         gap: 3rem;
     }
