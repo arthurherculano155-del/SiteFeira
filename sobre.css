@@ -108,7 +108,7 @@ body{
     }
 
     span{
-        color: aquamarine;
+        color: rgb(156, 229, 253);
         font-weight: 1000;
     }
 
@@ -119,6 +119,7 @@ body{
 
 .encont{
     h1{
+        margin: 3rem 0rem;
         font-size: 3rem;
         text-align: center;
         color: rgb(0, 0, 65);
