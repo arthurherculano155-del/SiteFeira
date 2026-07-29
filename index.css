@@ -184,6 +184,103 @@ body{
     background-color: rgb(0, 8, 51);
 }
 
+.sobre-site {
+    cursor: default;
+    max-width: 1200px;
+    margin: 2.5rem auto 3rem;
+    padding: 2.5rem;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 2rem;
+    align-items: center;
+    background: linear-gradient(135deg, rgb(76, 103, 192), rgb(2, 2, 109), rgb(0, 0, 51));
+    border-radius: 28px;
+    box-shadow: 0 18px 45px rgba(4, 35, 66, 0.20);
+    position: relative;
+    overflow: hidden;
+}
+
+.sobre-conteudo {
+    position: relative;
+    z-index: 1;
+}
+
+.sobre-etiqueta {
+    display: inline-block;
+    padding: 0.45rem 0.9rem;
+    background: rgba(255,255,255,0.16);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.sobre-conteudo h2 {
+    font-size: clamp(1.7rem, 2.4vw, 2.25rem);
+    color: #fff;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.sobre-conteudo p {
+    color: rgba(255,255,255,0.92);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.sobre-botao{
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.85rem 1.25rem;
+    background: rgb(255, 255, 255);
+    color: rgb(0,0,0);
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.sobre-botao:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+}
+
+.sobre-destaques{
+    display: grid;
+    gap: 1rem;
+}
+
+.destaque{
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    padding: 1rem 1.2rem;
+    border-radius: 18px;
+    transition: .3s ease-out;
+}
+
+.destaque:hover{
+    transform: translateY(-4px);
+    background: rgba(12, 63, 228, 0.12);
+}
+
+.destaque strong{
+    display: block;
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 0.35rem;
+}
+
+.destaque span{
+    color: rgba(255,255,255,0.92);
+    font-size: 0.97rem;
+}
+
 
 .bnts .sobre{
     background: none;
