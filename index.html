@@ -25,11 +25,21 @@
                 <li class="link"><a href="parcerias.html">Parcerias</a></li>
             </ul>
 
-            <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtDmCVxplLHdxVkvsRkpcgbfTkpxLVBSGFmDDSQJgqjBxxWmlQXdLxlhrRmtGDtwNDzsvDCq" target="_blank">
-        <button class="bot">INSCREVA-SE</button>
-        </a>
+
+        <button class="bot" onclick="show()">ACESSO ADMNISTRATIVO</button>
+  
     </header>
 
+        <section class="Login-Adm" id="login">
+        <img src="lock-solid.png" alt="">
+        <h1>Painel Administrativo</h1>
+        <p>Acesse sua conta para continuar</p> <br>
+        <input type="text" placeholder="Usuário" required id="nome"> <br>
+        <input type="password" placeholder="Senha" required id="senha"> <br>
+        <button onclick="verificar()">Entrar</button>
+    </section>
+
+    <section id="tela">
     <section class="inicio" id="inicio">
         <div class="info">
             <h1>FEIRA DE <br><span>PROFISSÕES</span> 2026</h1>
@@ -77,8 +87,6 @@
             especialistas e encontrar novas oportunidades que ajudam a construir o futuro
             com mais clareza e propósito.
         </p>
-
-        <a href="sobre.html" class="sobre-botao">Conheça mais</a>
     </div>
 
     <div class="sobre-destaques">
@@ -162,6 +170,7 @@
             
         </div>
     </section>
+    </section>
 
     <footer class="rodape">
         <div class="info">
@@ -220,5 +229,7 @@
 
         <h1 class="h1">© 2026 Instituto Social Nossa Senhora de Fátima • Todos os direitos reservados.</h1>
     
+
+        <script src="index.js"></script>
 </body>
 </html>
