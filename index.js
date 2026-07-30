@@ -9,6 +9,6 @@ function verificar(){
 
     if(n1 === "Adm123" && n2 === "root"){
         document.getElementById("tela").style.display = "block";
-        document.getElementById("login").style.display = "none";
+        window.location.href = "https://docs.google.com/forms/d/1CIDPlC52FJBGePbVuQEkjBuPSVwmVXUXWgI7uFsxJOE/viewform?edit_requested=true#responses"
     }
 }
