@@ -14,6 +14,10 @@ body{
     overflow-x: hidden;
 }
 
+.tela{
+    animation: fade 2s;
+}
+
 .container1{
     display: flex;
     justify-content: space-between;
@@ -357,6 +361,18 @@ body{
 
     50%{
         transform: translateX(-10%);
+    }
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(45px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 

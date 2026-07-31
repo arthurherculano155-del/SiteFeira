@@ -30,13 +30,15 @@
   
     </header>
 
-        <section class="Login-Adm" id="login">
+    <section class="Login-Adm" id="login">
         <img src="lock-solid.png" alt="">
+        <button class="close" onclick="fecharTela()">X</button>
         <h1>Painel Administrativo</h1>
         <p>Acesse sua conta para continuar</p> <br>
         <input type="text" placeholder="Usuário" required id="nome"> <br>
         <input type="password" placeholder="Senha" required id="senha"> <br>
-        <button onclick="verificar()">Entrar</button>
+        <p id="Error"></p> <br>
+        <button onclick="verificar()" class="button">Entrar</button>
     </section>
 
     <section id="tela">

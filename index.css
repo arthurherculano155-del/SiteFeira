@@ -119,6 +119,23 @@ body{
     background: linear-gradient(145deg, black, rgb(27, 27, 27), rgb(110, 110, 110));
 }
 
+.Login-Adm .close{
+    padding: 0.5rem 1rem;
+    border-radius: 1000px;
+    position: relative;
+    top: -110px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    border: 1px  white solid;
+    font-weight: 600;
+    left: 185px;
+    cursor: pointer;
+}
+
+.Login-Adm .close:active{
+    transform: scale(.95);
+}
+
 .Login-Adm input{
     padding: 1rem;
     background-color: rgba(102, 94, 94, 0.226);
@@ -130,7 +147,7 @@ body{
     text-align: center;
 }
 
-.Login-Adm button{
+.Login-Adm .button{
     padding: 1rem 2rem;
     text-align: center;
     width: 75%;
@@ -144,12 +161,12 @@ body{
     transition: .2s ease-out;
 }
 
-.Login-Adm button:hover{
+.Login-Adm .button:hover{
     background-color: darkblue;
     transform: scale(1.075);
 }
 
-.Login-Adm button:active{
+.Login-Adm .button:active{
     background-color: rgb(0, 0, 68);
     color: grey;
     transform: scale(.95);
@@ -682,6 +699,16 @@ hr{
         text-align: center;
     }
 
+      .Login-Adm .close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.35rem 0.7rem;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: 999px;
+  }
+
     .inicio{
         flex-direction: column;
         gap: 3rem;
@@ -706,6 +733,18 @@ hr{
         flex-direction: column;
         align-items: center;
         gap: 2rem;
+    }
+
+    .Login-Adm{
+        margin: 3rem auto;
+    }
+
+    .Login-Adm .close {
+        position: static;
+        margin-bottom: 0.8rem;
+        align-self: flex-end;
+        padding: 0.35rem 0.7rem;
+        font-size: 1.1rem;
     }
 
     .infs{
